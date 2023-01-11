@@ -64,6 +64,7 @@ class RelationHelper
     protected static $pivotedRelations = [
         BelongsToMany::class,
         MorphToMany::class,
+        \Chelout\RelationshipEvents\BelongsToMany::class,
     ];
 
     /**
